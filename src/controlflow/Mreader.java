@@ -26,9 +26,7 @@ public class Mreader {
         
         String[] td = new String[nol];
         
-        int i;
-        
-        for (i = 0;  i < nol; i++) {
+        for (int i = 0;  i < nol; i++) {
             td[i] = br.readLine();
             
         }
