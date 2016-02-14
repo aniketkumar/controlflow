@@ -1,0 +1,35 @@
+int main()
+{
+int i, j;
+scanf("%d", &i);
+
+if ( i > 10 ) 
+{
+printf("Value greater than 10");
+i = i * 2;
+}
+
+printf("Over");
+
+if ( i % 3 == 0 )
+{
+printf("Value divisible by 3");
+
+}
+else
+{
+i = i * 3;
+printf("Now divisible by 3");
+}
+
+j = 20;
+
+for ( i = 0 ; i < 10; ++i )
+{
+	printf("%d", i * 12);
+}
+
+return 0;
+}
+
+		
