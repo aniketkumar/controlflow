@@ -12,15 +12,14 @@ import java.io.IOException;
  *
  * @author Aniket
  */
+
 public class Controlflow {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) throws IOException {
-        // TODO code application logic here
-        Creategraph obj = new Creategraph();
-        obj.begin();
+        
+	Creategraph graph_object = new Creategraph();
+        graph_object.begin();
+
     }
     
 }
