@@ -18,6 +18,7 @@ public class Creategraph {
     StringTokenizer st ;
     int len;
     String tmptok;
+
     String[] starter = {"if", "else", "while", "for"};
     
     public void begin() throws IOException {
@@ -29,17 +30,12 @@ public class Creategraph {
         for (int i = 0; i < len; i++) {
             st = new StringTokenizer(lines[i]);
             
-            while(st.hasMoreTokens()) {
+            while( st.hasMoreTokens() ) {
                 tmptok = st.nextToken();
                 
                 
             }
         }
-        
-        
-        
-        
-        
         
     }
     
